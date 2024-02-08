@@ -7,6 +7,8 @@ Insertion(arr []int){
 			for k:=i-1;k>=0;k--{
 				if arr[i]< arr[k] {
 					flagMove=true;
+				} else if flagMove{
+					
 				} else if !flagMove{
 					arr[i],arr[k]=arr[k],arr[i]	
 				}
